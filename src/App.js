@@ -19,10 +19,17 @@ export default function App() {
 
         <footer className="App-footer">
           This project was coded by{" "}
-          <a href="https://github.com/Skyelene">Rachel Buday</a>, is
-          open-sourced on{" "}
-          <a href="https://github.com/Skyelene/Dictionary-Project">Github</a>,
-          and is hosted on{" "}
+          <a href="https://github.com/Skyelene" target="_blank">
+            Rachel Buday
+          </a>
+          , is open-sourced on{" "}
+          <a
+            href="https://github.com/Skyelene/Dictionary-Project"
+            target="_blank"
+          >
+            Github
+          </a>
+          , and is hosted on{" "}
           <a href="https://dictionary-app-rb.netlify.app/">Netlify.</a>
         </footer>
       </div>
