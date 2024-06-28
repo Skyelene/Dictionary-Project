@@ -11,11 +11,19 @@ export default function App() {
         </header>
 
         <main>
+          <div className="title">
+            <h2 className="text-center">📖 Rachel's Dictionary App 📖</h2>
+          </div>
           <Dictionary />
         </main>
 
         <footer className="App-footer">
-          <small>Coded by Rachel</small>
+          This project was coded by{" "}
+          <a href="https://github.com/Skyelene">Rachel Buday</a>, is
+          open-sourced on{" "}
+          <a href="https://github.com/Skyelene/Dictionary-Project">Github</a>,
+          and is hosted on{" "}
+          <a href="https://dictionary-app-rb.netlify.app/">Netlify.</a>
         </footer>
       </div>
     </div>

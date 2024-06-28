@@ -1,5 +1,31 @@
-.App-header {
-  margin: 30px 0;
+body {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  background: #c7bede;
+}
+
+.App {
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+.App .title {
+  margin: 30px 0 10px;
+  background: #fff;
+  color: #331598;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.App footer {
+  font-size: 12px;
+  text-align: center;
+  color: #331598;
+  margin: 30px 10px 10px;
+  background: #fff;
+  padding: 8px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .App-logo {
@@ -8,7 +34,16 @@
   margin: 0 auto;
 }
 
-.App-footer {
-  text-align: center;
-  margin: 30px 0;
+.Synonyms {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.hint {
+  color: #331598;
+}
+
+a {
+  color: #9999ff;
+  text-decoration: none;
 }
